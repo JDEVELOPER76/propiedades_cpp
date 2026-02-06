@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cpp-config"
+version = "0.1.0"
+description = "Generador de c_cpp_properties.json para proyectos C++ en VS Code"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+    {name = "SZ"}
+]
+
+[tool.setuptools]
+packages = ["cpp_config"]
+package-dir = {"cpp_config" = "."}
+
+[tool.setuptools.package-data]
+cpp_config = ["py.typed"]

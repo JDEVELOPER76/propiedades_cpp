@@ -1,0 +1,10 @@
+README.md
+__init__.py
+cpp_config.py
+pyproject.toml
+./__init__.py
+./cpp_config.py
+cpp_config.egg-info/PKG-INFO
+cpp_config.egg-info/SOURCES.txt
+cpp_config.egg-info/dependency_links.txt
+cpp_config.egg-info/top_level.txt
